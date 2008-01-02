@@ -10,6 +10,7 @@ Source0:	ftp://ftp.porcupine.org/pub/security/%{name}%{version}.tar.bz2
 License:	BSD
 Url:		ftp://ftp.porcupine.org/pub/security/index.html
 Group:		System/Servers
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	groff
 
 %description
