@@ -43,3 +43,32 @@ rm -rf $RPM_BUILD_ROOT
 %{_sbindir}/%{name}
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.3-6mdv2011.0
++ Revision: 617036
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.3-5mdv2010.0
++ Revision: 424839
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.3-4mdv2009.0
++ Revision: 243884
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.3-2mdv2008.1
++ Revision: 140693
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import chrootuid
+
+
+* Wed Aug 02 2006 Lenny Cartier <lenny@mandriva.com> 1.3-2mdv2007.0
+- rebuild
+
+* Sun Dec 21 2003 Olivier Blin <blino@mandrake.org> 1.3-1mdk
+- initial Mandrake release
