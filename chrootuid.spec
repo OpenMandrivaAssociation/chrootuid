@@ -1,6 +1,6 @@
 %define name chrootuid
 %define version 1.3
-%define release %mkrel 6
+%define release 7
 
 Summary:	Run command in restricted environment
 Name:		%{name}
