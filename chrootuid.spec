@@ -13,6 +13,7 @@ Group:		System/Servers
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	groff
 
+BuildRequires:	make
 %description
 Chrootuid makes it easy to run a network service at low privilege level
 and with restricted file system access.
